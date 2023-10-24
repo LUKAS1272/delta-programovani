@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         // Proměnná je místo, kam si uložíme pod určitým jménem nějakou hodnotu
-        // Můžeme vytvářet texty (string), nebo čísla
+        // Něco jako krabice, která má tvar (datový typ - string, int, bool), nálepku se jménem a hodnotu uvnitř
 
         // Proměnná se definuje pomocí jejího dadového typu (pro začátek budeme používat pouze string - textový řetězec)
         // Dále se definuje jméno, pomocí kterého program zpřístupní a přečte hodnotu proměnné
