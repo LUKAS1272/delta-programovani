@@ -22,5 +22,19 @@ class Program
         Console.WriteLine(x - y); // Odčítání pomocí -
         Console.WriteLine(x * y); // Násobení pomocí *
         Console.WriteLine(x / y); // Dělení pomocí /
+
+        // Hodnoty upravené pomocí matematických operací můžeme ukládat i do intových proměnných
+        // POZOR: Toto funguje pouze v případě, že je výsledkem celé číslo
+
+        int addition = x + y; // Sčítání pomocí +
+        int substraction = x - y; // Odečítání pomocí -
+        int multiplication = x * y; // Násobení pomocí *
+        int division = x / y; // Dělení pomocí /
+
+        // Výpis 4 proměnných výše - výstup by měl být stejný
+        Console.WriteLine(addition);
+        Console.WriteLine(substraction);
+        Console.WriteLine(multiplication);
+        Console.WriteLine(division);
     }
 }
