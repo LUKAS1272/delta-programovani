@@ -59,8 +59,8 @@ class Program
         Console.WriteLine(compare); // Vypíše true
 
 
-        // POZOR: >= a => není to stejné, pro porovnávání se používá pouze >=!
-        // POZOR: <= a =< není to stejné, pro porovnávání se používá pouze <=!
-        // POZOR: == a = není to stejné, pro porovnávání se používá pouze ==!
+        // POZOR: >= a => není to stejné, pro porovnávání se používá pouze >=
+        // POZOR: <= a =< není to stejné, pro porovnávání se používá pouze <=
+        // POZOR: == a = není to stejné, pro porovnávání se používá pouze ==
     }
 }
