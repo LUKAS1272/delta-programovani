@@ -1,2 +1,2 @@
-# Konec DELTA Tuesday > 7-Comparing
-# Konec DELTA Wednesday > 7-Comparing
+# Konec DELTA Tuesday > 9-ConditionsBasics
+# Konec DELTA Wednesday > 9-ConditionsBasics
