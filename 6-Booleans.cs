@@ -16,6 +16,6 @@ class Program
 
         // Stejně jako s ostatními datovými typy, i boolean můžeme vypsat do konzole
         Console.WriteLine(isDay); // true (pravda)
-        Console.WriteLine(inNight); // false (nepravda)
+        Console.WriteLine(isNight); // false (nepravda)
     }
 }
