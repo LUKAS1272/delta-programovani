@@ -52,7 +52,7 @@ class Program
         double secondSumDouble = 5;
         // int doublesSum = firstSumDouble + secondSumDouble;
         // Řádek výše by způsobil error, protože se snažíme uložit číslo s datovým typem double do proměnné s datovým typem int
-        // Místo toho bychom museli uložit výsledek operace do double
+        // Místo toho bychom museli uložit výsledek operace do double proměnné
         double doublesSum = firstSumDouble + secondSumDouble;
         Console.WriteLine(doublesSum);
     }
