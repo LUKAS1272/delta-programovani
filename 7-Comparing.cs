@@ -62,5 +62,21 @@ class Program
         // POZOR: >= a => není to stejné, pro porovnávání se používá pouze >=
         // POZOR: <= a =< není to stejné, pro porovnávání se používá pouze <=
         // POZOR: == a = není to stejné, pro porovnávání se používá pouze ==
+
+
+        // Stejně jako čísla, v C# můžeme porovnávat i texty - stringy
+        // Pro naše potřeby budeme porovnávat pouze, jestli jsou texty stejné, nebo odlišné
+
+
+        // Porovnáváme, jestli je text "Marek" stejný, jako text "Vojtěch"
+        Console.WriteLine("Marek" == "Vojtěch"); // Výstup bude false - nepravda
+
+        // C# je takzvaný "case sensitive" jazyk, tudíž pokud porovnáváme texty, záleží i na tom, jestli je písmeno velké, nebo malé
+        // I jediný znak, kterým se text odlišuje (mezera na konci, rozdíl malého a velkého písmena...) znamená, že texty NEJSOU stejné
+        Console.WriteLine("Marek" == "marek"); // Výstup bude false, protože jeden text začíná malým 'm' a druhý velkým 'M'
+
+        // Můžeme také porovnat, jestli jsou texty odlišné
+        // K tomu použijeme != stejně, jako jsme to dělali u čísel
+        Console.WriteLine("Marek" != "Vojtěch") // Výstup bude true - pravda, protože texty jsou odlišné 
     }
 }
