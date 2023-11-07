@@ -2,7 +2,7 @@
 # Konec DELTA Wednesday > 9-ConditionsBasics
 
 ### Tento soubor slouží pouze pro trackování progressu
-Pokud si chcete přečíst zápisy z hodin, rozklikněte si ostatní soubory. Soubory jsou očíslované podle komplexnosti - GitHub je řadí trochu divně, takže po 1 je 11 a 12. Koukejte se na to, jakým číslem začíná název souboru, podle toho poznáte jeho komplexnost.
+Pokud si chcete přečíst zápisy z hodin, rozklikněte si ostatní soubory. Soubory jsou očíslované podle komplexnosti - GitHub je řadí trochu divně, takže po 1 je 10, 11 a další čísla začínající jedničkou. Koukejte se na to, jakým číslem začíná název souboru, podle toho poznáte jeho komplexnost.
 
 Doporučujeme si kód z Main zkopírovat a vložit do vlastního projektu ve VS (opět do Main, aby to správně fungovalo). Kdybyste zkopírovali celý soubor, kód by vám pravděpodobně nefungoval.
 
