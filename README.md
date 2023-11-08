@@ -1,5 +1,5 @@
 # Konec DELTA Tuesday > 11-ConditionsBasics
-# Konec DELTA Wednesday > 9-ConditionsBasics
+# Konec DELTA Wednesday > 12-Parsing
 
 ### Tento soubor slouží pouze pro trackování progressu
 Pokud si chcete přečíst zápisy z hodin, rozklikněte si ostatní soubory. Soubory jsou očíslované podle komplexnosti - GitHub je řadí trochu divně, takže po 1 je 10, 11 a další čísla začínající jedničkou. Koukejte se na to, jakým číslem začíná název souboru, podle toho poznáte jeho komplexnost.
