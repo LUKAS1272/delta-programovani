@@ -1,4 +1,4 @@
-namespace Parsing;
+namespace Converting;
 
 class Program
 {
@@ -38,16 +38,14 @@ class Program
 
         // Jak to tedy uděláme?
         // Musíme si text, který nám uživatel zadá převést na číslo, abychom ho mohli uložit do intové proměnné
-        // Text můžeme převést na text pomocí takzvaného "parsování"
+        // Text můžeme převést na text pomocí takzvaného "convert"
 
-        // Parse začínáme typem, na který chceme text převést
-        // Tímto typem může být pouze double (desetinné číslo), nebo int (celé číslo)
-        // V našem příkladě budeme od uživatele přijímat pouze celá čísla - inty
+        // Convert začínáme slovem Convert, kterým programu řekneme, že chceme něco převést (convert v angličitně znamená převést)
+        // Následuje tečka a typ, na který chceme hodnotu převést
+        // Pro nás tímto typem bude int, protože chceme převést náš text na číslo
 
-        // Následuje tečka a jméno metody - "Parse"
-        // Do závorek zadáme text, který chceme na číslo převést
-
-        int number = int.Parse("15");
+        // Pro převedení na číslo použijeme "ToInt32"
+        int number = Convert.ToInt32("15");
         Console.WriteLine(number);
 
 
@@ -56,9 +54,9 @@ class Program
         Console.Write("Enter a number: ");
         // Do stringové proměnné si uložíme text, který nám uživatel zadá
         string userInput = Console.ReadLine();
-        // Ten poté pomocí parsování převedeme na číslo
+        // Ten poté pomocí convertu převedeme na číslo
         // Text převádíme na celé číslo - int, převádíme vstup, který nám uživatel předal - userInput
-        int parsedNumber = int.Parse(userInput);
+        int convertedNumber = Convert.ToInt32(userInput);
 
         // Pomocí porovnání s nulou zjistíme, jestli je číslo kladné, záporné, nebo neutrální
         // Abyste tuto část lépe chápali, podívejte se na soubory 9-ConditionsBasics.cs & 10-Elseif.cs
@@ -66,11 +64,11 @@ class Program
         {
             Console.WriteLine("Číslo je kladné");
         }
-        else if (parsedNumber < 0) // Pokud je číslo menší, než 0 - záporné
+        else if (convertedNumber < 0) // Pokud je číslo menší, než 0 - záporné
         {
             Console.WriteLine("Číslo je záporné");
         }
-        else if (parsedNumber == 0) // Pokud je číslo rovno 0 - neutrální
+        else if (convertedNumber == 0) // Pokud je číslo rovno 0 - neutrální
         {
             Console.WriteLine("Číslo je neutrální - 0");
         }
